@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+body{
+    background:rgb(239,239,239);
+}
+
+.main{
+    display:flex;
+}
+
+.end{
+    background:rgb(60,67,178);
+    color:rgb(60,67,178);
+    height:17px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top:5px;
+}
+
+.beg{
+    background:rgb(60,67,178);
+    color:rgb(60,67,178);
+    height:17px;
+    margin-top:-15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.front{
+    width:470px;
+    height:691px;
+    border:2px solid black ;
+    margin: 50px 0px 0px 300px;
+    padding-top: 2px;
+    border-radius: 10px;
+    background:rgb(255,255,255);
+}
+
+.back{
+    width:470px;
+    height:691px;
+    border:2px solid black ;
+    margin: 50px 0px 0px 300px;
+    padding-top: 15px;
+    border-radius: 10px;
+    background:rgb(255,255,255);
+}
+
+.logo{
+    width:480px;
+    height:71px;
+}
+
+.logo2{
+    margin-left:55px;
+    background:#ee2f36;
+    width:54px;
+    height:53px;
+    border-radius: 1000px;
+    font-size:20px;
+    padding:10px;
+    text-align:center;
+    color:#f48d46;
+}
+
+.image{
+    margin-left:125px;
+    margin-bottom:5px;
+    width:215px;
+    height:250px;
+    border:3px solid black;
+}
+
+.head1{
+    background:rgb(49,53,118);
+    color:rgb(245,245,245); 
+    text-align:center;
+    font-size:34px;
+    width:467px;
+    padding:2px 2px;
+}
+
+.head2{
+    margin-top:55px;
+    text-align:center;
+    font-weight: bold;
+    color:#ee2f36;
+    font-size:25px;
+}
+
+.name{
+    text-align:center;
+    font-weight: bold;
+    color:rgb(60,67,178);
+    font-size:34px;
+    
+}
+
+.content{
+    margin-left:59px;
+    font-size:24px;
+}
+
+.content2{
+    margin-left:29px;
+    font-size:20px;
+}
+
+.sign{
+    text-align:center;
+    margin-left:242px;
+    margin-top:-35px;
+    font-size:18px;
+}
+
+.list{
+    margin-left:30px;
+}
+
+.divider{
+    border:2px solid rgb(60,67,178);
+}
+
+.Addrs{
+    color: rgb(60,67,178);
+    text-align:center;
+    font-size:17px;
+    margin-top:5px;
+}
+
+
+.SAM{
+    width:470px;
+    height:244px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;;
+
+}
+
+
