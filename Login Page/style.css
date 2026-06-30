@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', sans-serif ;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url("/Assets/nature.jfif");
+    background-size:cover;
+}
+
+
+.login-card{
+    margin-top: 250px;
+    height: 450px;
+    width:500px;
+    background: rgba(255, 255, 255, 0.15); /* transparent white */
+    backdrop-filter: blur(10px); /* background blur */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align:center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.login-card:hover{
+    transform: translatey(-8px);
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.15);
+}
+
+.head{
+    color:white;
+    font-size:40px;
+    margin-top:15px;
+}
+
+
+
+.email{
+    width:70%;
+    height:50px;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgb(255,255,255);
+    margin-top:30px;
+
+} 
+
+.email::placeholder{
+    font-size:20px;
+    color:rgb(255,255,255);
+
+}
+
+.password{
+    width:70%;
+    height:50px;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgb(255,255,255);
+    margin-top:10px;
+
+}
+
+.password::placeholder{
+    font-size:20px;
+    color:rgb(255,255,255);
+}
+
+
+.check{
+    color:rgb(255,255,255);
+    margin-right:20px;
+    font-size:18px;
+    margin-top:20px;
+        
+}
+
+.forget{
+    color:rgb(255,255,255);
+    font-size:18px;
+    margin-top:20px;
+}
+
+.login-btn{
+    width:70%;
+    height:40px;
+    font-size:25px;
+    background:rgb(255,255,255);
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+
+
+}
+
+.login-btn:hover{
+    background:rgba(228, 179, 66, 0.656);
+    transform:scale(1.05);
+}
+
+.p3{
+    color:rgb(255,255,255);
+    font-size:18px;
+    margin-top:20px;
+}
+
+
